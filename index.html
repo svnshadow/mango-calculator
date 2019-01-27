@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mango Calculator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  			crossorigin="anonymous">
+  	</script>
+</head>
+<body>
+	<header>
+		<h1>Mango Calculator</h1>
+		
+	</header>
+
+	<div>
+
+		<br>
+		<textarea id="resultArea" readonly rows="3" cols="21"></textarea>
+
+		<table>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><button id="clrTxt" class="btn btn-danger">C</button></td>
+				<td><button id="del" class="btn btn-default">&#9746;</button></td>
+			</tr>
+
+			<tr>
+				<td><button id="num7" class="btn btn-success">7</button></td>
+				<td><button id="num8" class="btn btn-success">8</button></td>
+				<td><button id="num9" class="btn btn-success">9</button></td>
+				<td><button id="op3" class="btn btn-default">&div;</button></td>
+			</tr>
+
+			<tr>
+				<td><button id="num4" class="btn btn-success">4</button></td>
+				<td><button id="num5" class="btn btn-success">5</button></td>
+				<td><button id="num6" class="btn btn-success">6</button></td>
+				<td><button id="op2" class="btn btn-default">&times;</button></td>
+			</tr>
+
+			<tr>
+				<td><button id="num1" class="btn btn-success">1</button></td>
+				<td><button id="num2" class="btn btn-success">2</button></td>
+				<td><button id="num3" class="btn btn-success">3</button></td>
+				<td><button id="op1" class="btn btn-default">&minus;</button></td>
+			</tr>
+
+			<tr>
+				<td><button id="decp" class="btn btn-success">.</button></td>
+				<td><button id="num0" class="btn btn-success">0</button></td>
+				<td><button id="eq" class="btn btn-primary">=</button></td>
+				<td><button id="op0" class="btn btn-default">&plus;</button></td>
+			</tr>
+		</table>
+	</div>
+	<footer>Copyright &copy Mohaiminul Shovon,2019. All Rights Reserved.</footer>
+	<script type="text/javascript" src="calc.js"></script>
+</body>
+</html>
